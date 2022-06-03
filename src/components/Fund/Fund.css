@@ -1,0 +1,50 @@
+.fund{
+    background-color: grey;
+    border-radius: 0.8rem;
+    margin: 1rem 0;
+
+
+}
+.img-fund{
+    width: 100%;
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+    display: block;
+}
+
+.img-container{
+    position: relative;
+}
+
+.close-btn{
+    position: absolute;
+    display: block;
+    top: 5%;
+    right: 5%;
+    color: aqua;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    opacity: 0;
+}
+
+.img-container :hover .close-btn{
+    opacity: 1;
+}
+
+.fund-info{
+    padding: 1rem 0.5rem;
+}
+h3{
+  text-transform: uppercase;
+  color: aqua  
+}
+h4{
+    text-transform: capitalize;
+    color: black;
+    margin: 0.2rem 0 0.6rem;  
+  }
+  h5{
+      text-transform: capitalize;
+      
+  }
